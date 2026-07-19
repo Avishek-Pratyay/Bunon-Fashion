@@ -21,6 +21,11 @@ export default function ProductCard({ product }) {
           src={image}
           alt={name}
           loading="lazy"
+          onError={(e) => {
+            e.currentTarget.onerror = null;
+            e.currentTarget.src =
+              "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 500'%3E%3Crect width='400' height='500' fill='%23EDEAE1'/%3E%3C/svg%3E";
+          }}
           className={`h-full w-full object-cover transition duration-700 ease-weave group-hover:scale-[1.06] ${
             inStock ? "" : "grayscale opacity-70"
           }`}
