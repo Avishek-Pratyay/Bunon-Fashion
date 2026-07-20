@@ -2,8 +2,9 @@
 
 A frontend-only fashion e-commerce storefront built for the Oxivos Round 1 project task. "Bunon" (বুনন) means *weave* in Bengali — the brand leans into that, pairing handloom panjabis and kurtas with everyday staples.
 
-**Live site:** _add your Vercel URL here_
-**Repo:** _add your GitHub URL here_
+**Live site:** https://bunon-fashion-dusky.vercel.app/
+
+**Repo:** https://github.com/Avishek-Pratyay/Bunon-Fashion
 
 ## Stack
 
